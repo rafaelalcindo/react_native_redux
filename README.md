@@ -1,4 +1,4 @@
-## Explorando os recursos do redux
+## Explorando os recursos do redux V2
 
 Esse projeto tem finalidade de explorar os recursos do redux e sua funcionalidade no react-native
 
