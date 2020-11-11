@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 
 import store from './store'
 
-import TodoList from './TodoList'
+import { setNavigator } from './services/navigation'
 
 import Routes from './routes';
 
@@ -14,7 +14,7 @@ export default class App extends Component {
     render () {
         return(
             <Provider store={store} >
-                <Routes />
+                <Routes ref={setNavigator} />
             </Provider>
         );
     }
